@@ -4,8 +4,8 @@ RUN mkdir /app
 
 WORKDIR /app
 
-ADD ./target/customers-2.5.0-SNAPSHOT.jar /app
+ADD ./target/guests-2.5.0-SNAPSHOT.jar /app
 
-EXPOSE 8080
+EXPOSE 8082
 
-CMD ["java", "-jar", "customers-2.5.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "guests-2.5.0-SNAPSHOT.jar"]

@@ -1,9 +1,10 @@
+GuestResource.class
+GuestServiceHealthCheck.class
 Apartment.class
-CustomerResource.class
-CustomerServiceHealthCheck.class
+GuestApplication.class
 Database.class
-CustomerResource$1.class
-CustomerApplication.class
 Customer.class
 RestProperties.class
+GuestResource$1.class
 LogContextInterceptor.class
+Guest.class
