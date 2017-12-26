@@ -35,7 +35,7 @@ public class Database {
             }
         }
     }
-    
+
 
     //apartments
     public static void deleteApartment(String apartmentId) {

@@ -9,6 +9,7 @@ public class Apartment {
     private int numOfBeds;
     private String customerId;
     private List<String> guestIds;
+    private double pricePerNight;
 
     public String getId() {
         return id;
@@ -42,4 +43,7 @@ public class Apartment {
        this.customerId = customerId;
     }
 
+    public void setPricePerNight (double price) { this.pricePerNight = price; }
+
+    public double getPricePerNight() { return this.pricePerNight; }
 }

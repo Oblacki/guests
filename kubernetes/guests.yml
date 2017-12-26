@@ -10,7 +10,7 @@ spec:
         app: guests
     spec:
       containers:
-      - image: oblacki/guests:261217v1
+      - image: oblacki/guests:261217v2
         name: guests
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
@@ -18,10 +18,10 @@ spec:
         livenessProbe:
           httpGet:
             path: /health
-            port: 8080
+            port: 8082
           initialDelaySeconds: 20
           periodSeconds: 3
         ports:
-        - containerPort: 8080
+        - containerPort: 8082
           name: server
           protocol: TCP

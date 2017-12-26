@@ -15,8 +15,8 @@ directories:
 
 script:
 - mvn clean package -U
-- docker build -t oblacki/guests:261217v1 .
+- docker build -t oblacki/guests:261217v2 .
 
 after_success:
 - docker login -u="$OBLACKI_USER" -p="$OBLACKI_PASS"
-- docker push oblacki/guests:261217v1
+- docker push oblacki/guests:261217v2
