@@ -9,6 +9,7 @@ public class Customer {
     private String firstName;
     private String lastName;
     private List<Apartment> apartments;
+    private boolean superhost;
 
     public String getId() { return id; }
 
@@ -31,4 +32,8 @@ public class Customer {
     public List<Apartment> getApartments() { return apartments; }
 
     public void setApartments (List<Apartment> apartments) { this.apartments = apartments; }
+
+    public void setSuperhost(boolean sh) { this.superhost = sh; }
+
+    public boolean getSuperhost() { return this.superhost; }
 }

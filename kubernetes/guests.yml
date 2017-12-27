@@ -10,7 +10,7 @@ spec:
         app: guests
     spec:
       containers:
-      - image: oblacki/guests:261217v2
+      - image: oblacki/guests:271217v1
         name: guests
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
